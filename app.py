@@ -5,7 +5,10 @@ from dash import Dash, dcc, html
 import dash_bootstrap_components as dbc
 
 # Carregar os dados
-df = pd.read_csv('data/df_P1_Dados_demográficos.csv', encoding='utf-8')
+#https://drive.google.com/file/d/1BXzt80duLhge2zryEMxX013QgA4fBKmk/view?usp=sharing
+df = pd.read_csv('https://drive.google.com/file/d/1BXzt80duLhge2zryEMxX013QgA4fBKmk/view?usp=sharing', encoding='utf-8')
+
+#df = pd.read_csv('data/df_P1_Dados_demográficos.csv', encoding='utf-8')
 
 # Filtrar profissionais com conhecimento em Python e SQL
 # Assumindo que a área de formação em TI indica conhecimento nessas tecnologias

@@ -1,0 +1,11 @@
+23.06
+    4, -> 5,6,7
+        touch Dockerfile requirements.txt app.py && mkdir data/ templates/ && touch templates/map.html
+
+df_P1_Dados_demográficos.csv 
+paracienciasdedados@cloudshell:~$ mkdir cmd/cmd_my-ml-project.txt
+paracienciasdedados@cloudshell:~$ mkdir cmd_my-ml-project
+paracienciasdedados@cloudshell:~$ cd cmd_my-ml-project
+paracienciasdedados@cloudshell:~/cmd_my-ml-project$ cd ..
+
+paracienciasdedados@cloudshell:~$ touch cmd/cmd_my-ml-project.txt
